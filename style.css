@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{font-family: 'Roboto', sans-serif;
+  margin:0;
+  padding: 0PX;
+}
+
+
+div.flower {
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .navbar-brand {
+    position: relative;
+    width: 70px;
+    left: 15px;
+  }
+  
+  .nav-item {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    text-align: center  ;
+    border-color: black;
+
+  }
+/* div.flower.h4{
+  margin-top: 10px;
+  text-align: center; 
+  color: rgb(9, 9, 10);
+} */
+  /*for image border*/
+  #flower{
+    border-radius: 10px;
+    height: 270px;
+  
+  }  
+#cart{
+  margin-left:auto;
+  cursor: pointer;
+}
+#carts{
+  margin-top: 15px;
+  text-align: right;
+
+}
+
+.scroll{
+  display: block;
+            border: 0px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 100%;
+            height: 100px;
+            overflow-y: scroll;
+}
+/* cart slide window*/
+.cartHover{
+
+  position: fixed;
+  top:0;
+  right: 0%;
+  width: 500px;
+  height: unset;
+  /* min-height: 200vh; */
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  /* background: var(--bg-color); */
+  box-shadow: -2px 0 4px hsl(0 4% 15% 10%s);
+  transition: 0.4s;
+  display: none;
+}
+
+.cart.active{
+  right: 0;
+}
+
+.detail-box{
+  display: grid;
+  background-color: #ccc;
+  border-radius: 10px;
+  padding:10px;
+  row-gap: 0.5rem;
+  
+}
+
+.cart-product-title{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.cart-price{
+  display: flex;
+  justify-content:space-between;
+}
+.cart-price-head{
+
+  font-size: large;
+  background-color: rgb(182, 171, 184);
+  padding: 10px;
+  
+  border-radius: 5px;
+}
+
+.flowerCount1{
+  display: none;
+  justify-content: space-between;
+  
+}
+
+.flowerCount2{
+  display: none;
+  justify-content:space-between ;
+}
+
+.flowerCount3{
+  display: none;
+  justify-content:space-between ;
+}
+.flowerCount4{
+  display: none;
+  justify-content:space-between ;
+}
+/* .cart-quantity{
+ 
+  
+  border-radius: 5px;
+  width: 2.5rem;
+  text-align: center;
+  font-size: 1rem;
+} */
+
+/* cart delete button */
+
+.cartHover{
+  
+}
+
+.cart-remove{
+  
+  cursor: pointer;
+  font-size: 24px;
+  color: rgb(100, 63, 71)
+  ;
+}
+
+.total{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  border-top: 1px;
+}
+.total-title{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.total-price{
+  display: flex;
+  justify-content:center;
+  font-weight: 800;
+  margin-left: 0.5rem;
+  margin: 5px;
+  padding: 5px;
+}
+
+.cart-box1{
+  display: none;
+  margin: 10px;
+}
+
+.cart-box2{
+  display: none;
+  margin: 10px;
+}
+
+.cart-box3{
+  display: none;
+  margin: 10px;
+}
+
+.cart-box4{
+  display: none;
+  margin: 10px;
+}
+
+.btn-buy{
+  display: none;
+  margin: 1.5rem auto 0 auto;
+  padding: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgb(47, 126, 245);
+
+}
+
+#close-cart{
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+
+/* total title */
+.total-title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* empty cart message */
+.emptyCart{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  margin: 20px;
+  padding: 10px;
+  color: darkblue;
+  
+}
+
+#noImg{
+
+  margin: 20px;
+  padding: 20px;
+}
+
+  
+  div.img1{
+    width: 270px;
+    border: 2px solid #ccc;
+    /* padding-right: 30px; */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(224, 223, 223, 1);
+  }
+  div.img2{
+    width: 270px;
+    border: 2px solid #ccc;
+    /* padding-right: 30px; */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(224, 223, 223, 1);
+  }
+  div.img3{
+    width: 270px;
+    border: 2px solid #ccc;
+    /* padding-right: 30px; */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(224, 223, 223, 1);
+  }
+
+  div.img4{
+    width: 270px;
+    border: 2px solid #ccc;
+    /* padding-right: 30px; */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(224, 223, 223, 1);
+  }
+
+  div.flower img {
+    width: 100%;
+    height: 300px;
+   
+  }
+  .btn2cart{
+    background-color:rgba(184, 158, 201, 0.658);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius:10px;
+    text-align: center;
+    
+  }
+  div.desc.btn2cart{
+    justify-content: center;
+  }
+  
+  div.desc {
+    text-align: justify;
+    text-align: center;
+    margin-top: 10px;
+
+   
+  }
+  /* custom style */
+  .cart-counter{
+    display:inline-block;
+    width:20px;
+    opacity:0;
+    height:20px;
+    background:#ddd;  
+    border-radius:50%;
+    margin-left:10px;
+    
+  }
