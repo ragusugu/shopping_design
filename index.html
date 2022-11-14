@@ -45,7 +45,7 @@
         </div>
     </nav>
     <section class="main" style="background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
-    url(bg.jpg) ; background-size: cover; height:100vh; ; width: 100%; background-position: 50% 50%;">
+    url(bg1.jpg) ; background-size: cover; height:100vh; ; width: 100%; background-position: 50% 50%;">
 
         <!-- cart slide window-->
         <div class="cartHover scroll">
@@ -58,14 +58,14 @@
 
                 <!-- cart box 1 -->
                 <div class="cart-box1">
-                    <div class="detail-box">
+                    <div class="detail-box1">
                         <div class="cart-product-title">
                             <i class='bx bxs-shopping-bag'></i>
                             Flower 1
                         </div>
                         <div class="cart-price"> 
                             <h5 class="cart-price-head">Price: $5 </h5>  
-                            <i id="cartremove"class='bx bxs-trash cart-remove'></i>
+                            <i id="cartremove1"class='bx bxs-trash cart-remove'></i>
                         </div>
                         <div class="flowerCount1">
                             <h6>Count: </h6>
@@ -78,14 +78,14 @@
 
                 <!-- cart box 2 -->
                 <div class="cart-box2">
-                    <div class="detail-box">
+                    <div class="detail-box2">
                         <div class="cart-product-title">
                             <i class='bx bxs-shopping-bag'></i>
                             Flower 2
                         </div>
                         <div class="cart-price"> 
                             <h5 class="cart-price-head">Price: $10 </h5>  
-                            <i id="cartremove"class='bx bxs-trash cart-remove'></i>
+                            <i id="cartremove2"class='bx bxs-trash cart-remove'></i>
                         </div>
                         <div class="flowerCount2">
                             <h6>Count: </h6>
@@ -97,14 +97,14 @@
 
                 <!-- cart box 3 -->
                 <div class="cart-box3">
-                    <div class="detail-box">
+                    <div class="detail-box3">
                         <div class="cart-product-title">
                             <i class='bx bxs-shopping-bag'></i>
                             Flower 3
                         </div>
                         <div class="cart-price"> 
                             <h5 class="cart-price-head">Price: $15 </h5>  
-                            <i id="cartremove"class='bx bxs-trash cart-remove'></i>
+                            <i id="cartremove3"class='bx bxs-trash cart-remove'></i>
                         </div>
                         <div class="flowerCount3">
                             <h6>Count: </h6>
@@ -116,14 +116,14 @@
 
                 <!-- cart box 4 -->
                 <div class="cart-box4">
-                    <div class="detail-box">
+                    <div class="detail-box4">
                         <div class="cart-product-title">
                             <i class='bx bxs-shopping-bag'></i>
                             Flower 4
                         </div>
                         <div class="cart-price"> 
                             <h5 class="cart-price-head">Price: $25 </h5>  
-                            <i id="cartremove"class='bx bxs-trash cart-remove'></i>
+                            <i id="cartremove4"class='bx bxs-trash cart-remove'></i>
                         </div>
                         <div class="flowerCount4">
                             <h6>Count: </h6>
@@ -156,7 +156,7 @@
                     <img id="flower" src="img1.jpg" ><br>
                     <h4>Flower 1</h4>
                     <div class="desc"><h3>Price : 5$ </h3>
-                        <button id="f1" type="button" class="btn btn-secondary btn2cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button id="f1" type="button" class=" btn2cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Add to cart
                           </button>
                     </div>
@@ -165,7 +165,7 @@
                     <img id="flower" src="img2.jpg"><br>
                     <h4>Flower 2</h4>
                     <div class="desc"><h3>Price : 10$ </h3>
-                        <button id="f2" type="button" class="btn btn-secondary btn2cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button id="f2" type="button" class="  btn2cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Add to cart
                           </button>
                         
@@ -180,18 +180,18 @@
                     <h4>Flower 3</h4>
                     <div class="desc"><h3>Price : 15$ </h3>
                         
-                        <button id="f3" type="button" class="btn btn-secondary btn2cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button id="f3" type="button" class=" btn2cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Add to cart
                           </button>
                     </div>
                 </div>
 
                 <div class="img4">
-                    <img id="flower" src="img4.jpeg" ><br>
+                    <img id="flower" src="img.jpg" ><br>
                     <h4>Flower 4</h4>
                     <div class="desc"><h4>Price : 25$ </h4>
                         
-                        <button id="f4" type="button" class="btn btn-secondary btn2cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button id="f4" type="button" class="btn2cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Add to cart
                           </button>
                     </div>
@@ -205,17 +205,12 @@
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
             <div class="modal-content">
-                <!-- <div class="modal-header"> -->
-                <!-- <h5 class="modal-title" id="exampleModalLabel">Summary</h5> -->
-                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div> -->
+         
+            
                 <div class="modal-body ">
                 One item added to cart successfully!
                 </div>
-                <!-- <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                
-                </div> -->
+            
             </div>
             </div>
         </div>

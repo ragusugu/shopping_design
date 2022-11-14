@@ -9,8 +9,15 @@
 div.flower {
   text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     padding-top: 50px;
+    
+  }
+
+  #flower{
+    height: max-content;
+    width:auto;
+    
   }
 
   .navbar-brand {
@@ -64,7 +71,7 @@ div.flower {
   position: fixed;
   top:0;
   right: 0%;
-  width: 500px;
+  width: 350px;
   height: unset;
   /* min-height: 200vh; */
   padding: 20px;
@@ -79,7 +86,7 @@ div.flower {
   right: 0;
 }
 
-.detail-box{
+.detail-box1,.detail-box2,.detail-box3,.detail-box4{
   display: grid;
   background-color: #ccc;
   border-radius: 10px;
@@ -100,7 +107,7 @@ div.flower {
 .cart-price-head{
 
   font-size: large;
-  background-color: rgb(182, 171, 184);
+  background-color: rgb(168, 174, 250);
   padding: 10px;
   
   border-radius: 5px;
@@ -125,28 +132,19 @@ div.flower {
   display: none;
   justify-content:space-between ;
 }
-/* .cart-quantity{
- 
-  
-  border-radius: 5px;
-  width: 2.5rem;
-  text-align: center;
-  font-size: 1rem;
-} */
 
-/* cart delete button */
 
-.cartHover{
-  
-}
 
 .cart-remove{
   
   cursor: pointer;
   font-size: 24px;
-  color: rgb(100, 63, 71)
+  color: rgb(9, 19, 54)
   ;
 }
+
+
+
 
 .total{
   display: flex;
@@ -235,7 +233,7 @@ div.flower {
 
   
   div.img1{
-    width: 270px;
+    /* width: 270px; */
     border: 2px solid #ccc;
     /* padding-right: 30px; */
     border-radius: 20px;
@@ -244,7 +242,7 @@ div.flower {
     background-color: rgba(224, 223, 223, 1);
   }
   div.img2{
-    width: 270px;
+    /* width: 370px; */
     border: 2px solid #ccc;
     /* padding-right: 30px; */
     border-radius: 20px;
@@ -253,7 +251,7 @@ div.flower {
     background-color: rgba(224, 223, 223, 1);
   }
   div.img3{
-    width: 270px;
+    /* width: 270px; */
     border: 2px solid #ccc;
     /* padding-right: 30px; */
     border-radius: 20px;
@@ -263,7 +261,7 @@ div.flower {
   }
 
   div.img4{
-    width: 270px;
+    /* width: 270px; */
     border: 2px solid #ccc;
     /* padding-right: 30px; */
     border-radius: 20px;
@@ -278,11 +276,15 @@ div.flower {
    
   }
   .btn2cart{
-    background-color:rgba(184, 158, 201, 0.658);
+    
+    background-color:rgba(148, 21, 199, 0.356);
     margin-top: 10px;
     padding: 10px;
     border-radius:10px;
     text-align: center;
+    margin: 1.5rem auto 0 auto;
+    padding: 10px;
+    border: none;
     
   }
   div.desc.btn2cart{
